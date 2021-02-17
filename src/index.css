@@ -1,0 +1,64 @@
+@import 'bootstrap/dist/css/bootstrap.css';
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: plum;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+.content {
+  color: darkcyan;
+  border-radius: 35px;
+  border: solid;
+  background-color: bisque;
+  margin-top: 150px;
+  height: 350px;
+  width: 850px;
+  font-family: monospace;
+  text-align: justify;
+  padding: 20px;
+}
+
+.about {
+  text-align: center;
+  font-size: 50px;
+}
+
+.btn {
+  color: darkcyan;
+  background-color: rgb(245, 212, 173);
+  margin-bottom: 25px;
+}
+
+.stats {
+  font-weight: bold;
+  padding-top: 20px;
+  line-height: 50px;
+  font-size: 15px;
+}
+
+.txtPlace {
+  max-width: 80%;
+  font-size: 20px;
+  line-height: 32px;
+}
+
+.start {
+  border-radius: 2px;
+  background-color: gold;
+}
+
+.done {
+  color: rebeccapurple;
+}
+
+.err {
+  border-radius: 2px;
+  background-color: crimson;
+  color: bisque;
+}
